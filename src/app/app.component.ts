@@ -24,4 +24,10 @@ export class AppComponent {
   removeComponent(){
     this.viewContainer.remove()
   }
+
+  changeUser(){
+    this.userName = 'changed name'
+  }
+
+
 }
