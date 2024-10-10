@@ -10,3 +10,16 @@
 
 <app-profile [pUserName]="userName"></app-profile>
 <button (click)="changeUser()">Change Username</button>
+
+<hr>
+
+<h2>NG AfterContent Init</h2>
+
+<app-post-list>
+    {{userName}}
+    <p>Content from Parent Component</p>
+</app-post-list>
+
+<button (click)="loadPosts()">Create Component</button>
+
+<button (click)="removeComponent()">Remove Component</button>

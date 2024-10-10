@@ -14,11 +14,14 @@ import { ProfileComponent } from "./profile/profile.component";
 export class AppComponent {
   userName: string = 'John Doe';
 
-
   constructor (private viewContainer: ViewContainerRef) {}
 
-  loadComponent(){
+  loadPosts(){
     this.viewContainer.createComponent(PostListComponent);
+  }
+
+  loadProfile(){
+    this.viewContainer.createComponent(ProfileComponent)
   }
 
   removeComponent(){

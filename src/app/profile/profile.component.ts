@@ -12,22 +12,22 @@ export class ProfileComponent implements OnChanges, OnInit, DoCheck {
   count: number = 0;
 
   constructor() {
-    console.log('Inside Constructor')
-    console.log(this.pUserName)
+    // console.log('Inside Constructor')
+    // console.log(this.pUserName)
   }
 
   ngOnInit() {
-    console.log('Inside ngOnItit')
-    console.log(this.pUserName)
+    // console.log('Inside ngOnItit')
+    // console.log(this.pUserName)
   }
 
   ngOnChanges() {
-      console.log('OnChanges Triggerd')
-      console.log(this.pUserName)
+      // console.log('OnChanges Triggerd')
+      // console.log(this.pUserName)
   }
 
   ngDoCheck() {
-    console.log('DoCheck')
+    // console.log('DoCheck')
   }
 
   addToCount(){
